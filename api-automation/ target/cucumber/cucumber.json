@@ -1,0 +1,639 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:29:48.369Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Fetching all pets with status available",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;fetching-all-pets-with-status-available;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3374410800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit get API with available status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "available",
+                  "offset": 19
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_get_API(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify success status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:29:51.764Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Fetching all pets with status available",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;fetching-all-pets-with-status-available;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2225373300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit get API with pending status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pending",
+                  "offset": 19
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_get_API(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify success status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:29:53.995Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Fetching all pets with status available",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;fetching-all-pets-with-status-available;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2203647100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit get API with sold status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sold",
+                  "offset": 19
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_get_API(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify success status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@get"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:29:56.204Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Adding a new available pet to the store.",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;adding-a-new-available-pet-to-the-store.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 995300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2123056800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I hit post API with values 5000 BoxerMilo available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 27
+                },
+                {
+                  "val": "BoxerMilo",
+                  "offset": 32
+                },
+                {
+                  "val": "available",
+                  "offset": 42
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_post_api_with_values_boxer_milo_available(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify successful creation status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_successful_creation_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 432188700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify that the pet with 5000 BoxerMilo available has been added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 27
+                },
+                {
+                  "val": "BoxerMilo",
+                  "offset": 32
+                },
+                {
+                  "val": "available",
+                  "offset": 42
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_that_the_pet_with_values_has_been_added(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:29:58.764Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Updating the newly added pet in the store.",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;updating-the-newly-added-pet-in-the-store.;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1954459900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I hit put API with values 5000 BoxerMilo sold",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 26
+                },
+                {
+                  "val": "BoxerMilo",
+                  "offset": 31
+                },
+                {
+                  "val": "sold",
+                  "offset": 41
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_put_api_with_values_boxer_milo_sold(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify success status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23935900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify that the pet\u0027s status with 5000 BoxerMilo has been updated to sold",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 36
+                },
+                {
+                  "val": "BoxerMilo",
+                  "offset": 41
+                },
+                {
+                  "val": "sold",
+                  "offset": 71
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_that_the_pet_status_has_been_updated(int,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@put"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I want to test different API operations on this API",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-01-20T17:30:00.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Deleting the updated pet from the store.",
+        "description": "",
+        "id": "api-automaton-over-demo-pet-store;deleting-the-updated-pet-from-the-store.;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.runner.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.adidas.test.automation.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1859892600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I hit delete API with 5000 id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 22
+                }
+              ],
+              "location": "com.adidas.test.automation.stepDefinition.i_hit_delete_api_with_id(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I verify success status code",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I verify response body is not blank",
+            "match": {
+              "location": "com.adidas.test.automation.stepDefinition.i_verify_response_body_is_not_blank()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delete"
+          }
+        ]
+      }
+    ],
+    "name": "API automaton over Demo Pet Store",
+    "description": "",
+    "id": "api-automaton-over-demo-pet-store",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/API_Test.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,5 @@
+com\adidas\test\ui\PageObjects.class
+com\adidas\test\automation\ApiOperations.class
+com\adidas\test\automation\UIOperations.class
+com\adidas\test\automation\ConfigProvider.class
+com\adidas\test\automation\HttpStatusCodes.class
